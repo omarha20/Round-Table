@@ -1,0 +1,9 @@
+<a href="#" class="list-group-item" (click)="onSelected()">
+    <div class="float-start">
+        <h5 class="mb-1">{{ recipe.name }}</h5>
+        <p class="mb-1">{{ recipe.test }}</p>
+    </div>           
+    <span class="float-end">
+        <img src="{{ recipe.imagePath }}" alt="{{ recipe.name }}" class="img-fluid" style="max-height: 50px;">
+    </span>   
+</a>
